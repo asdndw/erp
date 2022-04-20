@@ -659,7 +659,7 @@ public class DepotItemService {
         } else {
             //盘点复盘数量为负数代表出库
             outSum = outSum.subtract(stockCheckSum);
-            
+
         }
         intervalMap.put("inSum", inSum);
         intervalMap.put("outSum", outSum);
